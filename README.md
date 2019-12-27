@@ -35,7 +35,7 @@ Comandos esenciales requeridos en la consola de **OPNsense**:
 | `python get-pip.py` | Instalar PIP |
 | `pip install virtualenv` | Instalar VIRTUALENV |
 | `virtualenv —version` | Verificar instalación VIRTUALENV |
-| `mkdir -p /opt/redbeacon-opnsense` | Crear directorio donde alojaremos el archivo .py |
+| `mkdir -p /opt/redbeacon-opnsense` | Crear directorio donde alojaremos la API |
 | `cd /opt/redbeacon-opnsense/usr/bin/` | - |
 | `virtualenv -p python3 /opt/redbeacon-opnsense` | - |
 | `source /opt/redbeacon-opnsense/bin/activate.csh` | Activar directorio |
