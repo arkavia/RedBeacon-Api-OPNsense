@@ -19,7 +19,7 @@ API de OPNsense para la comunidad. El uso de estas herramientas esta enfocado a 
 
 ## Instalación
 
-Comandos esenciales requeridos:
+Comandos esenciales requeridos en la consola de OPNsense:
 
 | Nombre | Observaciones |
 | --- | --- |
@@ -49,5 +49,9 @@ Para hacer uso de esta API se necesita tener instalado previamente **OPNsense** 
 
 
 ## Uso de la API
+Comandos esenciales para ejecutar la API:
 
-A continuación, el detalle de las peticiones **GET** y **POST** que contempla la API, por supuesto estas pueden ser modificadas para mejoras u/o otros usos.
+| Nombre | Observaciones |
+| --- | --- |
+| source /opt/redbeacon-opnsense/bin/activate.csh | Activar directorio |
+| python api.py | Ejecutar la API |
