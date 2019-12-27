@@ -5,3 +5,28 @@
 RedBeacon API OPNsense
 ======================
 
+<img src="https://firebasestorage.googleapis.com/v0/b/ark-not.appspot.com/o/redOPN.png?alt=media&token=0c4db906-8ddc-49a0-acc9-b6adc1ee7a2a" width="640">
+
+API de OPNsense para la comunidad. El uso de estas herramientas esta enfocado a Reglas de Firewall a Ambientes, permitiendo hacer bloqueos de direcciones ip atravez de IOC's  publicados en la aplicacion RedBeacon, con las siguientes limitaciones:
+
+- Envió restringido solo a Ambientes de uso propio.
+- Límite de un máximo de 5 Ambientes.
+
+## Herramientas, Tecnologías y Paquetes
+
+ - API OPNsense
+ - Python
+
+## Instalación
+
+    npm install (para ambos proyectos)
+    node index.js (API)
+    ng serve (Portal Web)
+
+## Configuración
+Para hacer uso de esta API se necesita tener instalado previamente **OPNsense** en su servidor
+
+
+## Uso de la API
+
+A continuación, el detalle de las peticiones **GET** y **POST** que contempla la API, por supuesto estas pueden ser modificadas para mejoras u/o otros usos.
