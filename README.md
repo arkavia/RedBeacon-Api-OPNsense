@@ -48,7 +48,7 @@ Comandos esenciales requeridos en la consola de **OPNsense**:
 
 Una vez ejecutados estos comandos procedemos a modificar el archivo **apy.py** ubicado en nuestro **OPNsense** remplazando su contenido por el entregado en este repositorio en el archivo **apy.py**, para hacer uso de este archivo ejecutamos el siguiente comando en la terminal de su pc: 
 
-    $ git clone https://github.com/arkavia/phishing_test.git
+    $ git clone https://github.com/arkavia/RedBeacon-Api-OPNsense.git
     
 ## Uso de la API
 Comandos esenciales para ejecutar la API:
