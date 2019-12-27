@@ -35,11 +35,11 @@ Comandos esenciales requeridos en la consola de **OPNsense**:
 | `python get-pip.py` | Instalar PIP |
 | `pip install virtualenv` | Instalar VIRTUALENV |
 | `virtualenv —version` | Verificar instalación VIRTUALENV |
-| `mkdir -p /opt/redbeacon-opnsense` | Crear directorio donde alojaremos la API |
-| `cd /opt/redbeacon-opnsense/usr/bin/` | - |
-| `virtualenv -p python3 /opt/redbeacon-opnsense` | - |
-| `source /opt/redbeacon-opnsense/bin/activate.csh` | Activar directorio |
-| `cd /opt/redbeacon-opnsense` | - |
+| `mkdir -p /opt/API` | Crear directorio donde alojaremos la API |
+| `cd /opt/API/usr/bin/` | - |
+| `virtualenv -p python3 /opt/API` | - |
+| `source /opt/API/bin/activate.csh` | Activar directorio |
+| `cd /opt/API` | - |
 | `git clone https://github.com/arkavia/RedBeacon-Api-OPNsense.git` | Clonar GitHub de la API |
 | `pip install flask` | Instalar FLASK |
 | `pip install request` | Instalar REQUEST |
@@ -52,5 +52,5 @@ Comandos esenciales para ejecutar la API:
 | Nombre | Observaciones |
 | --- | --- |
 | `8` | Opción Shell de OPNsense |
-| `source /opt/redbeacon-opnsense/bin/activate.csh` | Activar directorio |
-| `python /opt/redbeacon-opnsense/RedBeacon-Api-OPNsense/api.py` | Ejecutar la API |
+| `source /opt/API/bin/activate.csh` | Activar directorio |
+| `python /opt/API/RedBeacon-Api-OPNsense/api.py` | Ejecutar la API |
