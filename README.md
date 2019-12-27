@@ -20,8 +20,7 @@ API de OPNsense para la comunidad. El uso de estas herramientas esta enfocado a 
 ## Instalación
 
     npm install (para ambos proyectos)
-    node index.js (API)
-    ng serve (Portal Web)
+
 
 ## Configuración
 Para hacer uso de esta API se necesita tener instalado previamente **OPNsense** en su servidor
