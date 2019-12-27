@@ -39,11 +39,11 @@ Comandos esenciales requeridos en la consola de **OPNsense**:
 | `cd /opt/API/usr/bin/` | - |
 | `virtualenv -p python3 /opt/API` | - |
 | `source /opt/API/bin/activate.csh` | Activar directorio |
-| `cd /opt/API` | - |
-| `git clone https://github.com/arkavia/RedBeacon-Api-OPNsense.git` | Clonar GitHub de la API |
 | `pip install flask` | Instalar FLASK |
 | `pip install request` | Instalar REQUEST |
 | `pip install json` | Instalar JSON |
+| `cd /opt/API` | - |
+| `git clone https://github.com/arkavia/RedBeacon-Api-OPNsense.git` | Clonar GitHub de la API |
 | `exit` | Salir de la shell |
     
 ## Uso de la API
