@@ -41,7 +41,7 @@ Comandos esenciales requeridos en la consola de OPNsense:
 | `pip install flask` | Instalar FLASK |
 | `pip install request` | Instalar REQUEST |
 | `pip install json` | Instalar JSON |
-| `echo \&gt; api.py` | - |
+| `echo > api.py` | - |
 | `cat api.py` | Ver el contenido de el archivo apy.py |
 | `vi api.py` | Editar el archivo apy.py |
 
