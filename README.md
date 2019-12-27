@@ -15,6 +15,7 @@ API de **OPNsense** para la comunidad. El uso de estas herramientas esta enfocad
 ## Herramientas y Tecnologías
 
  - API **OPNsense**
+ - FreeBSD
  - Python
  
 ## Configuración
