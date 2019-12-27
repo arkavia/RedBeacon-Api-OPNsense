@@ -20,6 +20,11 @@ API de OPNsense para la comunidad. El uso de estas herramientas esta enfocado a 
 ## Instalación
 
     npm install (para ambos proyectos)
+    
+|     Nombre       |Observaciones|
+|---------------------------------------------|
+|`8`|Opción Shell de opnsense|
+|`pkg install python3`|Instalar Python 3|
 
 
 ## Configuración
