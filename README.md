@@ -19,7 +19,7 @@ API de OPNsense para la comunidad. El uso de estas herramientas esta enfocado a 
 
 ## Instalación
 
-COMANDOS ESENCIALES
+Comandos esenciales requeridos:
 
 | Nombre | Observaciones |
 | --- | --- |
