@@ -18,7 +18,7 @@ API de OPNsense para la comunidad. El uso de estas herramientas esta enfocado a 
  - Python
  
 ## Configuración
-Para hacer uso de esta API se necesita tener instalado previamente **OPNsense** en su servidor
+Para hacer uso de esta API se necesita tener instalado previamente **OPNsense** en su servidor.
 
 ## Instalación
 
