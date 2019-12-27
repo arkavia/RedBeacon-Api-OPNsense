@@ -16,6 +16,9 @@ API de OPNsense para la comunidad. El uso de estas herramientas esta enfocado a 
 
  - API OPNsense
  - Python
+ 
+## Configuración
+Para hacer uso de esta API se necesita tener instalado previamente **OPNsense** en su servidor
 
 ## Instalación
 
@@ -41,12 +44,6 @@ Comandos esenciales requeridos en la consola de OPNsense:
 | echo \&gt; api.py | - |
 | cat api.py | Ver el contenido de el archivo apy.py |
 | vi api.py | Editar el archivo apy.py |
-
-
-
-## Configuración
-Para hacer uso de esta API se necesita tener instalado previamente **OPNsense** en su servidor
-
 
 ## Uso de la API
 Comandos esenciales para ejecutar la API:
