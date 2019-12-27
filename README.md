@@ -45,8 +45,10 @@ Comandos esenciales requeridos en la consola de OPNsense:
 | `cat api.py` | Ver el contenido de el archivo apy.py |
 | `vi api.py` | Editar el archivo apy.py |
 
-Una vez ejecutados estos comandos procedemos a modificar el archivo al cual le copiaremos lo siguiente:
+Una vez ejecutados estos comandos procedemos a modificar el archivo remplazando su conten¡do por el entregado en este repositorio en el archivo **apy.py** para hacer uso de este archivo ejecutamos el siguiente comando: 
 
+    $ git clone https://github.com/arkavia/phishing_test.git
+    
 ## Uso de la API
 Comandos esenciales para ejecutar la API:
 
