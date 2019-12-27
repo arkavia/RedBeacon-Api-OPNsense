@@ -27,7 +27,7 @@ Comandos esenciales requeridos en la consola de OPNsense:
 | Nombre | Observaciones |
 | --- | --- |
 | 8 | Opción Shell de OPNsense |
-| pkg install python3 | Instalar Python 3 |
+| `pkg install python3` | Instalar Python 3 |
 | python3 —version | Verificar instalación Python 3 |
 | python3 -m venv apisense | Crear ambiente virtual |
 | curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py | Descargar PIP |
@@ -44,6 +44,8 @@ Comandos esenciales requeridos en la consola de OPNsense:
 | echo \&gt; api.py | - |
 | cat api.py | Ver el contenido de el archivo apy.py |
 | vi api.py | Editar el archivo apy.py |
+
+Una vez ejecutados estos comandos procedemos a modificar el archivo al cual le copiaremos lo siguiente:
 
 ## Uso de la API
 Comandos esenciales para ejecutar la API:
