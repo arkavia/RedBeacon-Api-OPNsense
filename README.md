@@ -39,22 +39,18 @@ Comandos esenciales requeridos en la consola de **OPNsense**:
 | `cd /opt/redbeacon-opnsense/usr/bin/` | - |
 | `virtualenv -p python3 /opt/redbeacon-opnsense` | - |
 | `source /opt/redbeacon-opnsense/bin/activate.csh` | Activar directorio |
+| `cd /opt/redbeacon-opnsense` | - |
+| `git clone https://github.com/arkavia/RedBeacon-Api-OPNsense.git` | Clonar GitHub de la API |
 | `pip install flask` | Instalar FLASK |
 | `pip install request` | Instalar REQUEST |
 | `pip install json` | Instalar JSON |
-| `echo > api.py` | - |
-| `cat api.py` | Ver el contenido de el archivo apy.py |
-| `git clone https://github.com/arkavia/RedBeacon-Api-OPNsense.git` | Clonar GitHub de la API |
-| `git clone https://github.com/arkavia/RedBeacon-Api-OPNsense.git` | Clonar GitHub de la API |
-
-Una vez ejecutados estos comandos procedemos a modificar el archivo **apy.py** ubicado en nuestro **OPNsense** remplazando su contenido por el entregado en este repositorio en el archivo **apy.py**, para hacer uso de este archivo ejecutamos el siguiente comando en la terminal de su pc: 
-
-    $ git clone https://github.com/arkavia/RedBeacon-Api-OPNsense.git
+| `exit` | Salir de la shell |
     
 ## Uso de la API
 Comandos esenciales para ejecutar la API:
 
 | Nombre | Observaciones |
 | --- | --- |
+| `8` | Opción Shell de OPNsense |
 | `source /opt/redbeacon-opnsense/bin/activate.csh` | Activar directorio |
-| `python api.py` | Ejecutar la API |
+| `python /opt/redbeacon-opnsense/RedBeacon-Api-OPNsense/api.py` | Ejecutar la API |
