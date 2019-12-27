@@ -26,24 +26,24 @@ Comandos esenciales requeridos en la consola de OPNsense:
 
 | Nombre | Observaciones |
 | --- | --- |
-| 8 | Opción Shell de OPNsense |
+| `8` | Opción Shell de OPNsense |
 | `pkg install python3` | Instalar Python 3 |
-| python3 —version | Verificar instalación Python 3 |
-| python3 -m venv apisense | Crear ambiente virtual |
-| curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py | Descargar PIP |
-| python get-pip.py | Instalar PIP |
-| pip install virtualenv | Instalar VIRTUALENV |
-| virtualenv —version | Verificar instalación VIRTUALENV |
-| mkdir -p /opt/redbeacon-opnsense | Crear directorio donde alojaremos el archivo .py |
-| cd /opt/redbeacon-opnsense/usr/bin/ | - |
-| virtualenv -p python3 /opt/redbeacon-opnsense | - |
-| source /opt/redbeacon-opnsense/bin/activate.csh | Activar directorio |
-| pip install flask | Instalar FLASK |
-| pip install request | Instalar REQUEST |
-| pip install json | Instalar JSON |
-| echo \&gt; api.py | - |
-| cat api.py | Ver el contenido de el archivo apy.py |
-| vi api.py | Editar el archivo apy.py |
+| `python3 —version` | Verificar instalación Python 3 |
+| `python3 -m venv apisense` | Crear ambiente virtual |
+| `curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py` | Descargar PIP |
+| `python get-pip.py` | Instalar PIP |
+| `pip install virtualenv` | Instalar VIRTUALENV |
+| `virtualenv —version` | Verificar instalación VIRTUALENV |
+| `mkdir -p /opt/redbeacon-opnsense` | Crear directorio donde alojaremos el archivo .py |
+| `cd /opt/redbeacon-opnsense/usr/bin/` | - |
+| `virtualenv -p python3 /opt/redbeacon-opnsense` | - |
+| `source /opt/redbeacon-opnsense/bin/activate.csh` | Activar directorio |
+| `pip install flask` | Instalar FLASK |
+| `pip install request` | Instalar REQUEST |
+| `pip install json` | Instalar JSON |
+| `echo \&gt; api.py` | - |
+| `cat api.py` | Ver el contenido de el archivo apy.py |
+| `vi api.py` | Editar el archivo apy.py |
 
 Una vez ejecutados estos comandos procedemos a modificar el archivo al cual le copiaremos lo siguiente:
 
@@ -52,5 +52,5 @@ Comandos esenciales para ejecutar la API:
 
 | Nombre | Observaciones |
 | --- | --- |
-| source /opt/redbeacon-opnsense/bin/activate.csh | Activar directorio |
-| python api.py | Ejecutar la API |
+| `source /opt/redbeacon-opnsense/bin/activate.csh` | Activar directorio |
+| `python api.py` | Ejecutar la API |
