@@ -23,34 +23,34 @@ Para hacer uso de esta API se necesita tener instalado previamente **OPNsense** 
 
 ## Instalación
 
-Comandos esenciales requeridos en la consola de **OPNsense**:
+Comandos esenciales requeridos en la consola de **OPNsense**, para ello procederemos a ingresar a la shell[8]:
 
-| Nombre | Observaciones |
-| --- | --- |
-| `8` | Opción Shell de OPNsense |
-| `pkg install python3` | Instalar Python 3 |
-| `python3 —version` | Verificar instalación Python 3 |
-| `python3 -m venv apisense` | Crear ambiente virtual |
-| `curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py` | Descargar PIP |
-| `python get-pip.py` | Instalar PIP |
-| `pip install virtualenv` | Instalar VIRTUALENV |
-| `virtualenv —version` | Verificar instalación VIRTUALENV |
-| `mkdir -p /opt/API` | Crear directorio donde alojaremos la API |
-| `cd /opt/API/usr/bin/` | - |
-| `virtualenv -p python3 /opt/API` | - |
-| `source /opt/API/bin/activate.csh` | Activar directorio |
-| `pip install flask` | Instalar FLASK |
-| `pip install request` | Instalar REQUEST |
-| `pip install json` | Instalar JSON |
-| `cd /opt/API` | - |
-| `git clone https://github.com/arkavia/RedBeacon-Api-OPNsense.git` | Clonar GitHub de la API |
-| `exit` | Salir de la shell |
+Instalar los paquetes necesarios 
+
+    $ pkg install python3
+    $ curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py
+    $ python3 get-pip.py
+    $ pip install virtualenv
+    $ pip install flask
+    $ pip install request
+    $ pip install json
+
+Preparar Python virtualenv 
+
+    $ mkdir -p /opt/API
+    $ cd /opt/API
+    $ virtualenv -p python3 /opt/API 
+    $ source /opt/API/bin/activate.csh
+
+Clonar GitHub de la API
+
+    $ cd /opt/API
+    $ git clone https://github.com/arkavia/RedBeacon-Api-OPNsense.git
     
 ## Uso de la API
-Comandos esenciales para ejecutar la API:
 
-| Nombre | Observaciones |
-| --- | --- |
-| `8` | Opción Shell de OPNsense |
-| `source /opt/API/bin/activate.csh` | Activar directorio |
-| `python /opt/API/RedBeacon-Api-OPNsense/api.py` | Ejecutar la API |
+Ejecutar la API
+
+    $ source /opt/API/bin/activate.csh
+    $ python /opt/API/RedBeacon-Api-OPNsense/api.py
+
