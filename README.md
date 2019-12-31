@@ -18,7 +18,7 @@ API de **OPNsense** para la comunidad. El uso de estas herramientas esta enfocad
 **Restricciones**
 
 - Envió restringido solo a ambientes de uso propio creados en la aplicación **RedBeacon**.
-- Límite de un máximo de 5 Ambientes.
+- Límite de un máximo de **5** Ambientes.
 
 ## Herramientas y Tecnologías
 
