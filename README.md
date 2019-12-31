@@ -9,13 +9,13 @@ RedBeacon API OPNsense
 
 API de **OPNsense** para la comunidad. El uso de estas herramientas está enfocado a la seguridad perimetral de una red, permitiendo hacer bloqueos de direcciones IP's a través de IOC's  publicados en la aplicación **RedBeacon**.
 
-**Beneficios**
+**Beneficios:**
 
 - **Personaliza** tus reglas de seguridad a tu medida a través de **OPNsense**.
 - **Notificación y acción** de los principales y más importantes IOC's a través de **RedBeacon**.
 - **Crea, activa, desactiva y elimina** tus ambientes de seguridad perimetral de red en tiempo real a través de **RedBeacon**.
 
-**Restricciones**
+**Restricciones:**
 
 - Envió restringido solo a ambientes de uso propio creados en la aplicación **RedBeacon**.
 - Límite de un máximo de **5** Ambientes.
