@@ -7,7 +7,7 @@ RedBeacon API OPNsense
 
 <img src="https://firebasestorage.googleapis.com/v0/b/ark-not.appspot.com/o/redOPN.png?alt=media&token=0c4db906-8ddc-49a0-acc9-b6adc1ee7a2a" width="640">
 
-API de **OPNsense** para la comunidad. El uso de estas herramientas esta enfocado a la seguridad perimetral de una red, permitiendo hacer bloqueos de direcciones ip's a través de IOC's  publicados en la aplicación **RedBeacon**.
+API de **OPNsense** para la comunidad. El uso de estas herramientas está enfocado a la seguridad perimetral de una red, permitiendo hacer bloqueos de direcciones IP's a través de IOC's  publicados en la aplicación **RedBeacon**.
 
 **Beneficios**
 
