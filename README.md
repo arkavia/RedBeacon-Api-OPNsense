@@ -23,7 +23,7 @@ Para hacer uso de esta API se necesita tener instalado previamente **OPNsense** 
 
 ## Instalación
 
-Comandos esenciales requeridos en la consola de **OPNsense**, para ello procederemos a ingresar a la shell[8]:
+Ingresar a la consola de **OPNsense** y seleccionar la opción 8(**shell**):
 
 Instalar los paquetes necesarios 
 
