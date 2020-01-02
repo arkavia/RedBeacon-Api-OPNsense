@@ -32,9 +32,9 @@ Para hacer uso de esta API se necesita tener instalado previamente **OPNsense** 
 
 ## Instalación
 
-<img src="https://firebasestorage.googleapis.com/v0/b/ark-not.appspot.com/o/redOPN.png?alt=media&token=0c4db906-8ddc-49a0-acc9-b6adc1ee7a2a" width="640">
-
 Ingresar a la consola de **OPNsense** y seleccionar la opción 8(**shell**):
+
+<img src="https://firebasestorage.googleapis.com/v0/b/ark-not.appspot.com/o/redOPN.png?alt=media&token=0c4db906-8ddc-49a0-acc9-b6adc1ee7a2a" width="640">
 
 Instalar los paquetes necesarios 
 
