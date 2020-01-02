@@ -41,25 +41,28 @@ Instalar los paquetes necesarios
     $ python3 get-pip.py
     $ pip install virtualenv
     $ pip install flask
+    $ pip install flask_cors
     $ pip install request
+    $ pip install requests
     $ pip install json
+    $ pkg install git
 
 Preparar Python virtualenv 
 
-    $ mkdir -p /opt/API
-    $ cd /opt/API
-    $ virtualenv -p python3 /opt/API 
-    $ source /opt/API/bin/activate.csh
+    $ mkdir -p /root/API
+    $ cd /root/API
+    $ virtualenv -p python3 /root/API 
+    $ source /root/API/bin/activate.csh
 
 Clonar GitHub de la API
 
-    $ cd /opt/API
+    $ cd /root/API
     $ git clone https://github.com/arkavia/RedBeacon-Api-OPNsense.git
     
 ## Uso de la API
 
 Ejecutar la API
 
-    $ source /opt/API/bin/activate.csh
-    $ python /opt/API/RedBeacon-Api-OPNsense/api.py
+    $ source /root/API/bin/activate.csh
+    $ python3 /root/API/RedBeacon-Api-OPNsense/api.py
 
