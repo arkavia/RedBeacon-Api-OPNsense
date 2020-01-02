@@ -5,7 +5,7 @@
 RedBeacon API OPNsense
 ======================
 
-<img src="https://firebasestorage.googleapis.com/v0/b/ark-not.appspot.com/o/redOPN.png?alt=media&token=0c4db906-8ddc-49a0-acc9-b6adc1ee7a2a" width="640">
+<img src="https://firebasestorage.googleapis.com/v0/b/ark-not.appspot.com/o/PROMO.png?alt=media&token=1a44e21d-c005-4fb4-9f0d-c1542e7b99eb" width="640">
 
 API de **OPNsense** para la comunidad. El uso de estas herramientas está enfocado a la seguridad perimetral de una red, permitiendo hacer bloqueos de direcciones IP's a través de IOC's  publicados en la aplicación **RedBeacon**.
 
@@ -31,6 +31,8 @@ API de **OPNsense** para la comunidad. El uso de estas herramientas está enfoca
 Para hacer uso de esta API se necesita tener instalado previamente **OPNsense** en su servidor.
 
 ## Instalación
+
+<img src="https://firebasestorage.googleapis.com/v0/b/ark-not.appspot.com/o/redOPN.png?alt=media&token=0c4db906-8ddc-49a0-acc9-b6adc1ee7a2a" width="640">
 
 Ingresar a la consola de **OPNsense** y seleccionar la opción 8(**shell**):
 
