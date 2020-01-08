@@ -71,6 +71,13 @@ Ejecutar la API
 ## Uso en RedBeacon
 
 Una vez la api de opnsense este intalada procederemos a integrarla a la aplicación para ello haremos lo siguiente
+
+<img src="https://firebasestorage.googleapis.com/v0/b/ark-not.appspot.com/o/1opnsense.png?alt=media&token=162d38b2-ab62-44ce-89e0-a6772ba1440c" width="640">
+
+<img src="https://firebasestorage.googleapis.com/v0/b/ark-not.appspot.com/o/2opnsense.png?alt=media&token=82fc3bec-7ae0-4492-a36a-d1684235497b" width="640">
+
+<img src="https://firebasestorage.googleapis.com/v0/b/ark-not.appspot.com/o/3opnsense.png?alt=media&token=d4259e8b-b312-4fbd-b83a-30ad7213d553" width="640">
+
 Las claves API se administran en el administrador de usuarios (system_usermanager.php), vaya a la página del administrador de usuarios y seleccione un usuario. En algún lugar de la página encontrará la sección de API para este usuario.
 
 <img src="https://docs.opnsense.org/_images/Usermanager_add_api_key.png" width="640">
