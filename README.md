@@ -68,7 +68,9 @@ Ejecutar la API
     $ source /root/API/bin/activate.csh
     $ python3 /root/API/RedBeacon-Api-OPNsense/api.py
     
-    
+## Uso en RedBeacon
+
+Una vez la api de opnsense este intalada procederemos a integrarla a la aplicación para ello haremos lo siguiente
 Las claves API se administran en el administrador de usuarios (system_usermanager.php), vaya a la página del administrador de usuarios y seleccione un usuario. En algún lugar de la página encontrará la sección de API para este usuario.
 
 <img src="https://docs.opnsense.org/_images/Usermanager_add_api_key.png" width="640">
