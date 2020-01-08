@@ -70,23 +70,21 @@ Ejecutar la API
     
 ## Uso en RedBeacon
 
-Una vez la API de opnsense este intalada procederemos a integrarla a la aplicación para ello haremos lo siguiente
+Una vez la API de opnsense este intalada procederemos a integrarla a la aplicación para ello haremos lo siguiente:
 
-<img src="https://firebasestorage.googleapis.com/v0/b/ark-not.appspot.com/o/1opnsense.png?alt=media&token=162d38b2-ab62-44ce-89e0-a6772ba1440c" width="640">
+<img src="https://firebasestorage.googleapis.com/v0/b/ark-not.appspot.com/o/Captura%20de%20Pantalla%202020-01-08%20a%20la(s)%2017.57.37.png?alt=media&token=e856f38a-f223-4d77-ac36-f8b568d6ebb8" width="640">
 
-<img src="https://firebasestorage.googleapis.com/v0/b/ark-not.appspot.com/o/2opnsense.png?alt=media&token=82fc3bec-7ae0-4492-a36a-d1684235497b" width="640">
-
-<img src="https://firebasestorage.googleapis.com/v0/b/ark-not.appspot.com/o/3opnsense.png?alt=media&token=d4259e8b-b312-4fbd-b83a-30ad7213d553" width="640">
-
-Las claves API se administran en el administrador de usuarios (system_usermanager.php), vaya a la página del administrador de usuarios y seleccione un usuario. En algún lugar de la página encontrará la sección de API para este usuario.
+Las claves API se administran en el administrador de usuarios, vaya a la página del administrador de usuarios(**System > Access > Users**) y seleccione un usuario. En algún lugar de la página encontrará la sección de API para este usuario.
 
 <img src="https://docs.opnsense.org/_images/Usermanager_add_api_key.png" width="640">
 
-Haga clic en el signo + para agregar una nueva clave. Cuando se crea la clave, recibirá una (descarga única) con las credenciales en un archivo de texto (con formato ini). El contenido de este archivo se ve así:
+Haga clic en el signo **+** para agregar una nueva clave. Cuando se crea la clave, recibirá una (descarga única) con las credenciales en un archivo de texto (con formato ini). El contenido de este archivo se ve así:
 
     key=w86XNZob/8Oq8aC5r0kbNarNtdpoQU781fyoeaOBQsBwkXUt
     secret=XeD26XVrJ5ilAc/EmglCRC+0j2e57tRsjHwFepOseySWLM53pJASeTA3
 
-Ingresamos a **RedBeacon**, en la pestaña de **Bloqueo Inteligente** Haga clic en el signo **+** para agregar un nuevo ambiente. Ingrese el nombre de alias con el que desea asociar el ambientes de seguridad perimetral(esto se vera reflejado en la pestaña de alias en el dashboard de OPNsense), en la casilla ip ingrese la ip asignada anteriormente en la consola como  **WAN**:
+Antede que pueda comenzar, asegurese de crear una copia de este archivo con las credenciales ya que seran de vital uso en los siguientes pasos.
+
+Ingresamos a **RedBeacon**, en la pestaña de **Bloqueo Inteligente** Haga clic en el signo **+** para agregar un nuevo ambiente. Ingrese el nombre de alias con el que desea asociar el ambientes de seguridad perimetral(esto se vera reflejado en la pestaña de alias en el dashboard de **OPNsense**), en la casilla IP ingrese la IP asignada anteriormente en la consola como  **WAN**, A continuacion haga ingreso de las credenciales otorgadas anteriormente por **OPNsense**:
 
 <img src="https://firebasestorage.googleapis.com/v0/b/ark-not.appspot.com/o/opn1.png?alt=media&token=5de3b70e-9f32-4247-9201-e3dea16ad5c7" height="640">
