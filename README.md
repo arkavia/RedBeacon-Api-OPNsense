@@ -70,7 +70,7 @@ Ejecutar la API
     
 ## Uso en RedBeacon
 
-Una vez la api de opnsense este intalada procederemos a integrarla a la aplicación para ello haremos lo siguiente
+Una vez la API de opnsense este intalada procederemos a integrarla a la aplicación para ello haremos lo siguiente
 
 <img src="https://firebasestorage.googleapis.com/v0/b/ark-not.appspot.com/o/1opnsense.png?alt=media&token=162d38b2-ab62-44ce-89e0-a6772ba1440c" width="640">
 
