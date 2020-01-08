@@ -87,7 +87,6 @@ Haga clic en el signo + para agregar una nueva clave. Cuando se crea la clave, r
     key=w86XNZob/8Oq8aC5r0kbNarNtdpoQU781fyoeaOBQsBwkXUt
     secret=XeD26XVrJ5ilAc/EmglCRC+0j2e57tRsjHwFepOseySWLM53pJASeTA3
 
-<img src="https://firebasestorage.googleapis.com/v0/b/ark-not.appspot.com/o/opnsense_phone1.jpeg?alt=media&token=07a4f297-eda2-4d55-9e25-f203f5300716" height="640">
+<img src="https://firebasestorage.googleapis.com/v0/b/ark-not.appspot.com/o/opn1.png?alt=media&token=5de3b70e-9f32-4247-9201-e3dea16ad5c7" height="1080">
 
-<img src="https://firebasestorage.googleapis.com/v0/b/ark-not.appspot.com/o/opnsense_phone2.jpeg?alt=media&token=650c1c31-e8ea-4c90-b8a7-3460b70db39f" height="640">
 
