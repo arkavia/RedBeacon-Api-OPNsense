@@ -82,7 +82,7 @@ Las claves API se administran en el administrador de usuarios, vaya a la página
 <img src="https://docs.opnsense.org/_images/Usermanager_add_api_key.png" width="1080">
 
 
-Haga clic en el signo **+** para agregar una nueva clave. Cuando se crea la clave, recibirá una (descarga única) con las credenciales en un archivo de texto (con formato ini). El contenido de este archivo se ve así:
+Haga clic en el boton **+** para agregar una nueva clave. Cuando se crea la clave, recibirá una (descarga única) con las credenciales en un archivo de texto (con formato ini). El contenido de este archivo se ve así:
 
 
     key=w86XNZob/8Oq8aC5r0kbNarNtdpoQU781fyoeaOBQsBwkXUt
