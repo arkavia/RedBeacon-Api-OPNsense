@@ -68,7 +68,7 @@ Ejecutar la API
     $ source /root/API/bin/activate.csh
     $ python3 /root/API/RedBeacon-Api-OPNsense/api.py
     
-## Uso en RedBeacon
+## Integración en RedBeacon
 
 Una vez la API de **OPNsense** este intalada procederemos a integrarla a la aplicación para ello haremos lo siguiente:
 
@@ -98,7 +98,14 @@ Ingresamos a **RedBeacon**, en la pestaña de **Bloqueo Inteligente** Haga clic 
 
 <img src="https://firebasestorage.googleapis.com/v0/b/ark-not.appspot.com/o/Captura-de-Pantalla-2020-01-09-a-la(s)-11.51.50.png?alt=media&token=8c0b4da9-4de4-4546-ba1c-68be94bb36a1" width="1080">
 
-Para poder sacar el máximo potencial a esta herramienta se recomienda crear una regla en **OPNsense** asociándola con el alias creado, para esto accederemos a dicha pestaña en la plataforma(**Firewall > Rules > WAN**) con el fin de poder tomar control total de esta regla, permitiendo asi hacer bloqueos de direcciones IP's a través de IOC's  publicados en la aplicación **RedBeacon** de manera muy facil.
+Para poder sacar el máximo potencial a esta herramienta se recomienda crear una regla personalizada en **OPNsense** asociándola con el alias creado, para esto accederemos a dicha pestaña en la plataforma(**Firewall > Rules > WAN**) y la crearemos con el fin de poder tomar control total de esta regla, permitiendo de esta manera hacer bloqueos de direcciones IP's a través de IOC's  publicados en la aplicación **RedBeacon** de manera muy facil.
+
+<img src="https://firebasestorage.googleapis.com/v0/b/ark-not.appspot.com/o/Captura-de-Pantalla-2020-01-09-a-la(s)-12.43.09.png?alt=media&token=9fcbbdd2-d1c1-498c-85f1-79f2c6286ac2" width="1080">
+
+
+## Bloqueos en RedBeacon
+
+Ingresamos a **RedBeacon**, en la pestaña de **Inicio** ingresamos a una publicación con IOC's disponibles, una vez en el detalle de la publicación iremos al final de la publicación a la sección **IoC**, Haga clic en el ambiente que desea bloquear estas  direcciones IP's, se nos mostraran dos opciones de las cuales le daremos clic a **Bloquear IOC**, una vez hecho esto se nos mostrara un mensaje dandonos a entender que la acción fue realizada satisfactoriamente, estos cambios se verán aplicados y reflejados automáticamente en **opnsense** gracias a la regla asignada con anterioridad en dicha plataforma.
 
 <img src="https://firebasestorage.googleapis.com/v0/b/ark-not.appspot.com/o/opnred2.png?alt=media&token=1c0e052e-29b5-465a-b0a3-2371ac3f25a2" width="1080">
 
