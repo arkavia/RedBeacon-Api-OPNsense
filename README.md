@@ -98,7 +98,7 @@ Ingresamos a **RedBeacon**, en la pestaña de **Bloqueo Inteligente** Haga clic 
 
 <img src="https://firebasestorage.googleapis.com/v0/b/ark-not.appspot.com/o/Captura-de-Pantalla-2020-01-09-a-la(s)-11.51.50.png?alt=media&token=8c0b4da9-4de4-4546-ba1c-68be94bb36a1" width="1080">
 
-Para poder sacar el máximo potencial a esta herramienta se recomienda crear una regla en **OPNsense** asociándola con el alias creado para esto accederemos a dicha pestaña en la plataforma(**System > Access > Users**) con el fin de poder tomar control total de esta regla en la aplicación permitiendo hacer bloqueos de direcciones IP's a través de IOC's  publicados en la aplicación **RedBeacon** de manera muy facil.
+Para poder sacar el máximo potencial a esta herramienta se recomienda crear una regla en **OPNsense** asociándola con el alias creado, para esto accederemos a dicha pestaña en la plataforma(**System > Access > Users**) con el fin de poder tomar control total de esta regla, permitiendo asi hacer bloqueos de direcciones IP's a través de IOC's  publicados en la aplicación **RedBeacon** de manera muy facil.
 
 <img src="https://firebasestorage.googleapis.com/v0/b/ark-not.appspot.com/o/opnred2.png?alt=media&token=1c0e052e-29b5-465a-b0a3-2371ac3f25a2" width="1080">
 
