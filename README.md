@@ -105,15 +105,14 @@ Para finalizar la integración es de maxima importancia crear una regla personal
 
 ## Bloqueos en RedBeacon
 
-Ingresamos a **RedBeacon**, en la pestaña de **Inicio** ingresamos a una publicación con IOC's disponibles, 
+1. Ingresamos a **RedBeacon**, en la pestaña de **Inicio** accedemos a una publicación con IOC's disponibles,
+una vez en el detalle de la publicación iremos al final de la publicación a la sección **IoC**. 
 
-una vez en el detalle de la publicación iremos al final de la publicación a la sección **IoC**, 
+2. haga clic en el ambiente que desea bloquear estas  direcciones IP's, se nos mostraran dos opciones de las cuales le daremos clic a **Bloquear IOC**.
 
-haga clic en el ambiente que desea bloquear estas  direcciones IP's, se nos mostraran dos opciones de las cuales le daremos clic a **Bloquear IOC**, 
+3. una vez realizada la acción anterior se nos mostrara un mensaje dandonos a entender que la acción fue realizada satisfactoriamente.
 
-una vez hecho realizada la acción anterior se nos mostrara un mensaje dandonos a entender que la acción fue realizada satisfactoriamente, 
-
-Cabe señalar que estos cambios se verán aplicados y reflejados automáticamente en **opnsense** gracias a la regla asignada con anterioridad en dicha plataforma.
+*Cabe señalar que estos cambios se verán aplicados y reflejados automáticamente en **opnsense** gracias a la regla asignada con anterioridad en dicha plataforma.
 
 <img src="https://firebasestorage.googleapis.com/v0/b/ark-not.appspot.com/o/opnred2.png?alt=media&token=1c0e052e-29b5-465a-b0a3-2371ac3f25a2" width="1080">
 
