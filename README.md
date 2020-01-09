@@ -112,7 +112,7 @@ una vez en el detalle de la publicación iremos al final de la publicación a la
 
 3. una vez realizada la acción anterior se nos mostrara un mensaje dandonos a entender que la acción fue realizada satisfactoriamente.
 
-> **NOTE: Cabe señalar que estos cambios se verán aplicados y reflejados automáticamente en OPNsense gracias a la regla asignada con anterioridad en dicha plataforma.**
+> **NOTA: Cabe señalar que estos cambios se verán aplicados y reflejados automáticamente en OPNsense gracias a la regla asignada con anterioridad en dicha plataforma.**
 
 <img src="https://firebasestorage.googleapis.com/v0/b/ark-not.appspot.com/o/opnred2.png?alt=media&token=1c0e052e-29b5-465a-b0a3-2371ac3f25a2" width="1080">
 
