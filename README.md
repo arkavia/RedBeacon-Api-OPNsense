@@ -95,3 +95,5 @@ Ingresamos a **RedBeacon**, en la pestaña de **Bloqueo Inteligente** Haga clic 
 
 
 <img src="https://firebasestorage.googleapis.com/v0/b/ark-not.appspot.com/o/opn1.png?alt=media&token=5de3b70e-9f32-4247-9201-e3dea16ad5c7" height="640">
+
+<img src="https://firebasestorage.googleapis.com/v0/b/ark-not.appspot.com/o/Captura-de-Pantalla-2020-01-09-a-la(s)-11.51.50.png?alt=media&token=8c0b4da9-4de4-4546-ba1c-68be94bb36a1" height="640">
