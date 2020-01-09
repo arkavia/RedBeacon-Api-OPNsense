@@ -91,7 +91,7 @@ Haga clic en el signo **+** para agregar una nueva clave. Cuando se crea la clav
 
 Antes de que pueda comenzar, asegúrese de crear una copia de este archivo con las credenciales ya que serán de vital uso en los siguientes pasos.
 
-Ingresamos a **RedBeacon**, en la pestaña de **Bloqueo Inteligente** Haga clic en el signo **+** para agregar un nuevo ambiente. Ingrese el nombre de alias con el que desea asociar el ambientes de seguridad perimetral(esto se vera reflejado en la pestaña de alias en el dashboard de **OPNsense**), en la casilla IP ingrese la IP asignada anteriormente en la consola como **WAN**, A continuación haga ingreso de las credenciales otorgadas anteriormente por **OPNsense**:
+Ingresamos a **RedBeacon**, en la pestaña de **Bloqueo Inteligente** Haga clic en el signo **+** para agregar un nuevo ambiente. Ingrese el nombre de alias con el que desea asociar el ambiente de seguridad perimetral(esto se vera reflejado en la pestaña de **Aliases** en el dashboard de **OPNsense**), en la casilla IP ingrese la IP asignada anteriormente en la consola como **WAN**, A continuación haga ingreso de las credenciales otorgadas anteriormente por **OPNsense** todo esto para conseguir el resultado mostrado en las siguientes imagenes:
 
 
 <img src="https://firebasestorage.googleapis.com/v0/b/ark-not.appspot.com/o/resopnred.png?alt=media&token=2f5253e0-c355-4986-92bc-87a3245fbcf2" width="1080">
