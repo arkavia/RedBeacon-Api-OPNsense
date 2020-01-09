@@ -73,13 +73,13 @@ Ejecutar la API
 Una vez la API de opnsense este intalada procederemos a integrarla a la aplicación para ello haremos lo siguiente:
 
 
-<img src="https://firebasestorage.googleapis.com/v0/b/ark-not.appspot.com/o/Captura%20de%20Pantalla%202020-01-08%20a%20la(s)%2017.57.37.png?alt=media&token=e856f38a-f223-4d77-ac36-f8b568d6ebb8" width="640">
+<img src="https://firebasestorage.googleapis.com/v0/b/ark-not.appspot.com/o/Captura%20de%20Pantalla%202020-01-08%20a%20la(s)%2017.57.37.png?alt=media&token=e856f38a-f223-4d77-ac36-f8b568d6ebb8" width="1080">
 
 
 Las claves API se administran en el administrador de usuarios, vaya a la página del administrador de usuarios(**System > Access > Users**) y seleccione un usuario. En algún lugar de la página encontrará la sección de API para este usuario.
 
 
-<img src="https://docs.opnsense.org/_images/Usermanager_add_api_key.png" width="640">
+<img src="https://docs.opnsense.org/_images/Usermanager_add_api_key.png" width="1080">
 
 
 Haga clic en el signo **+** para agregar una nueva clave. Cuando se crea la clave, recibirá una (descarga única) con las credenciales en un archivo de texto (con formato ini). El contenido de este archivo se ve así:
