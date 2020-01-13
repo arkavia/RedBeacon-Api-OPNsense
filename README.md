@@ -94,7 +94,7 @@ Antes de que pueda comenzar, asegúrese de crear una copia de este archivo con l
 Ingresamos a **RedBeacon**, en la pestaña de **Bloqueo Inteligente** Haga clic en el boton ` + ` para agregar un nuevo ambiente. Ingrese el nombre de alias con el que desea asociar el ambiente de seguridad perimetral(esto se vera reflejado en la pestaña de **Aliases** en el dashboard de **OPNsense**), en la casilla IP ingrese la IP asignada anteriormente en la consola como **WAN**, A continuación haga ingreso de las credenciales otorgadas anteriormente por **OPNsense** todo esto para conseguir el resultado mostrado en las siguientes imagenes:
 
 
-<img src="https://firebasestorage.googleapis.com/v0/b/ark-not.appspot.com/o/resopnred.png?alt=media&token=2f5253e0-c355-4986-92bc-87a3245fbcf2" width="1080">
+<img src="https://firebasestorage.googleapis.com/v0/b/ark-not.appspot.com/o/redaniversario2.png?alt=media&token=ac935b76-7d3b-46c2-a512-744322f13dc2" width="1080">
 
 <img src="https://firebasestorage.googleapis.com/v0/b/ark-not.appspot.com/o/Captura-de-Pantalla-2020-01-09-a-la(s)-11.51.50.png?alt=media&token=8c0b4da9-4de4-4546-ba1c-68be94bb36a1" width="1080">
 
@@ -113,6 +113,6 @@ una vez en el detalle de la publicación iremos al final de la publicación a la
 
 > **NOTA: Cabe señalar que estos cambios se verán aplicados y reflejados automáticamente en OPNsense gracias a la regla asignada con anterioridad en dicha plataforma.**
 
-<img src="https://firebasestorage.googleapis.com/v0/b/ark-not.appspot.com/o/opnsensered1.png?alt=media&token=d4317c60-4249-4118-996f-7a4efc9a3081" width="1080">
+<img src="https://firebasestorage.googleapis.com/v0/b/ark-not.appspot.com/o/redaniversario1.png?alt=media&token=d0057d86-a0c8-4da9-87fe-03232cdf93ec" width="1080">
 
 <img src="https://firebasestorage.googleapis.com/v0/b/ark-not.appspot.com/o/Captura%20de%20Pantalla%202020-01-09%20a%20la(s)%2012.35.15.png?alt=media&token=3d17e8c3-f7ce-4d22-b008-0984ee888b62" width="1080">
