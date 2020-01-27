@@ -101,7 +101,7 @@ Una vez lista la configuración de la primera sección proseguimos a rellenar la
 <img src="https://firebasestorage.googleapis.com/v0/b/ark-not.appspot.com/o/APIREDBEACON04.png?alt=media&token=c8f54163-9041-4a94-b664-3dfe3231cf1a" width="1080">
 
 
-> **(cabe señalar que si la API y/o OPNsense  esta instalada en un ambiente con certificados tienes que activar la casilla `https` para el funcionanmiento óptimo de esta función, de los contrario sufrirá inconvenientes)..**
+> **NOTA: Cabe señalar que si la API y/o OPNsense  esta instalada en un ambiente con certificados tienes que activar la casilla `https` para el funcionanmiento óptimo de esta función, de los contrario sufrirá inconvenientes.**
 
 
 <img src="https://firebasestorage.googleapis.com/v0/b/ark-not.appspot.com/o/Captura-de-Pantalla-2020-01-09-a-la(s)-11.51.50.png?alt=media&token=8c0b4da9-4de4-4546-ba1c-68be94bb36a1" width="1080">
