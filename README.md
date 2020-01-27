@@ -94,7 +94,7 @@ Antes de que pueda comenzar, asegúrese de crear una copia de este archivo con l
 Ingresamos a **RedBeacon**, en la pestaña de **Bloqueo Inteligente** Haga clic en el boton ` + ` para agregar un nuevo ambiente. Ingrese el nombre de alias con el que desea asociar el ambiente de seguridad perimetral(esto se vera reflejado en la pestaña de **Aliases** en el dashboard de **OPNsense**), en la casilla IP ingrese la IP asignada anteriormente en la consola como **WAN**, A continuación haga ingreso de las credenciales otorgadas anteriormente por **OPNsense** todo esto para conseguir el resultado mostrado en las siguientes imagenes:
 
 
-<img src="https://firebasestorage.googleapis.com/v0/b/ark-not.appspot.com/o/redaniversario2.png?alt=media&token=ac935b76-7d3b-46c2-a512-744322f13dc2" width="1080">
+<img src="https://firebasestorage.googleapis.com/v0/b/ark-not.appspot.com/o/APIREDBEACON03.png?alt=media&token=265074d2-ca4b-4d4e-b396-9f6d30cf47e9" width="1080">
 
 <img src="https://firebasestorage.googleapis.com/v0/b/ark-not.appspot.com/o/Captura-de-Pantalla-2020-01-09-a-la(s)-11.51.50.png?alt=media&token=8c0b4da9-4de4-4546-ba1c-68be94bb36a1" width="1080">
 
