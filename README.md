@@ -95,7 +95,7 @@ Antes de que pueda comenzar, asegúrese de crear una copia de este archivo con l
 
 Ingresamos a **RedBeacon**, en la pestaña de **Bloqueo Inteligente** Haga clic en el botón ` + ` para agregar un nuevo ambiente. En este modulo nos encontraremos con dos secciones de configuración `configuración OPNSENSE` & `configuración API`, las cuales configuraremos de la siguiente manera:
 
-## configuración OPNSENSE
+**Configuración OPNSENSE**
 
 1. Comenzaremos con la configuración de la primera sección que en este caso corresponde a la `configuración OPNSENSE`, para ello colocaremos el tipo de certificado al cual le asignamos al opnsense en su interfaz gráfica(en nuestro caso esta configurada en https por lo que activaremos esta opción). 
 
@@ -103,7 +103,7 @@ Ingresamos a **RedBeacon**, en la pestaña de **Bloqueo Inteligente** Haga clic 
 
 3.para finalizar la primera sección haga ingreso del nombre de alias con el que desea asociar el ambiente de seguridad perimetral(esto se vera reflejado en la pestaña de **Aliases** en el dashboard de **OPNsense**), por ultimo ingrese las credenciales otorgadas anteriormente por **OPNsense** como key y secret.
 
-## configuración API
+**Configuración API**
 
 1. Una vez lista la configuración de la primera sección proseguimos a rellenar las casillas de la `configuración API`, en este caso nuestro entorno de **API** no tiene certificado `https` por lo que no activaremos esta opción.
 
