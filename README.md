@@ -145,4 +145,4 @@ una vez en el detalle de la publicación iremos al final de la publicación a la
 <img src="https://firebasestorage.googleapis.com/v0/b/ark-not.appspot.com/o/Captura%20de%20Pantalla%202020-01-09%20a%20la(s)%2012.35.15.png?alt=media&token=3d17e8c3-f7ce-4d22-b008-0984ee888b62" width="1080">
 
 
-**Copyright © All rights reserved | Desarrollado con :hearts: por CSOC**
+**Copyright © All rights reserved | Desarrollado con :hearts: por CSOC para la comunidad**
