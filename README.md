@@ -113,7 +113,7 @@ Ingresamos a **RedBeacon**, en la pestaña de **Bloqueo Inteligente** Haga clic 
 
 2. Proseguimos con las casilla IP, en nuestro caso como instalamos la **API** en el mismo ambiente donde esta instalado **OPNsense** le asignamos la misma IP entregada anteriormente en la consola como **WAN**.
 
-3. En la casilla puerto ingresamos el puerto que nos designo la **API** anteriormente al momento de ejecutarla, en nuestro caso por defecto nos designo el puerto 5005(como se señalo en la imagen de [`stats`](#stats)).
+3. En la casilla puerto ingresamos el puerto que nos designo la **API** anteriormente al momento de ejecutarla, en nuestro caso por defecto nos designo el puerto 5005(como se señalo en la imagen de [`uso de la API`](##uso-de-la-api)).
 
 4. Una vez realizada la acción anterior se nos mostrara un mensaje dandonos a entender que la acción fue realizada satisfactoriamente, llevandonos de vuelta a la lista de ambientes.
 
