@@ -97,9 +97,11 @@ Ingresamos a **RedBeacon**, en la pestaña de **Bloqueo Inteligente** Haga clic 
 
 **Configuración OPNSENSE**
 
-1. Comenzaremos con la configuración de la primera sección que en este caso corresponde a la `configuración OPNSENSE`, para ello colocaremos el tipo de certificado al cual le asignamos al **OPNsense** en su interfaz gráfica(en nuestro caso esta configurada en https por lo que activaremos esta opción). 
+1. Comenzaremos con la configuración de la primera sección que en este caso corresponde a la `configuración OPNSENSE`, para ello colocaremos el tipo de certificado al cual le asignamos al **OPNsense** en su interfaz gráfica (en nuestro caso esta configurada en https por lo que activaremos esta opción). 
 
-2. Proseguimos con las casillas IP y puerto, ingresamos la IP asignada anteriormente en la consola como **WAN** (en nuestro caso no tenemos asignado un puerto a **OPNsense** por lo que dejaremos este campo en blanco).[cabe señalar que por default **OPNsense** no tiene un puerto asignado por lo que es opcional completamente opcional completar este campo]. 
+2. Proseguimos con las casillas IP y puerto, ingresamos la IP asignada anteriormente en la consola como **WAN** (en nuestro caso no tenemos asignado un puerto a **OPNsense** por lo que dejaremos este campo en blanco).
+
+> **NOTA: cabe señalar que por default **OPNsense** no tiene un puerto asignado por lo que es opcional completamente opcional completar este campo].**
 
 3. Ingrese el nombre de alias con el que desea asociar el ambiente de seguridad perimetral(esto se vera reflejado en la pestaña de **Aliases** en el dashboard de **OPNsense**).
 
