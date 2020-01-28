@@ -98,7 +98,7 @@ Comenzaremos con la configuración de la primera sección que en este caso corre
 Una vez lista la configuración de la primera sección proseguimos a rellenar las casillas de la `configuración API`, en nuestro caso nuestro entorno de **API** no tiene certificado https por lo que no activaremos esta opción, proseguimos con las casillas IP y puerto, en nuestro caso como instalamos la **API** en el mismo ambiente donde esta instalado **OPNsense** le asignamos la misma IP entregada anteriormente en la consola como **WAN** y ingresamos en la siguiente casilla el puerto que nos designo la **API** al momento de ejecutarla, en nuestro caso por defecto nos designo el puerto 5005. todo esto para conseguir el resultado mostrado en las siguientes imágenes:
 
 
-<img src="https://firebasestorage.googleapis.com/v0/b/ark-not.appspot.com/o/Captura%20de%20Pantalla%202020-01-28%20a%20la(s)%2010.42.50.png?alt=media&token=6999d11d-3c39-448f-82f5-4a491122f235" width="1080">
+<img src="https://firebasestorage.googleapis.com/v0/b/ark-not.appspot.com/o/puerto-rb.png?alt=media&token=fc0afdd9-9cff-424d-bf26-1770096b7db1" width="1080">
 
 <img src="https://firebasestorage.googleapis.com/v0/b/ark-not.appspot.com/o/APIREDBEACON04.png?alt=media&token=c8f54163-9041-4a94-b664-3dfe3231cf1a" width="1080">
 
