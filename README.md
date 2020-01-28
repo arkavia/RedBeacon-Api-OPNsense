@@ -101,7 +101,7 @@ Ingresamos a **RedBeacon**, en la pestaña de **Bloqueo Inteligente** Haga clic 
 
 2. Proseguimos con las casillas IP y puerto, ingresamos la IP asignada anteriormente en la consola como **WAN** (en nuestro caso no tenemos asignado un puerto a **OPNsense** por lo que dejaremos este campo en blanco).
 
-> **NOTA: cabe señalar que por default **OPNsense** no tiene un puerto asignado por lo que es opcional completamente opcional completar este campo].**
+> **NOTA: Cabe señalar que por default **OPNsense** no tiene un puerto asignado por lo que es opcional completamente opcional completar este campo].**
 
 3. Ingrese el nombre de alias con el que desea asociar el ambiente de seguridad perimetral(esto se vera reflejado en la pestaña de **Aliases** en el dashboard de **OPNsense**).
 
@@ -113,7 +113,7 @@ Ingresamos a **RedBeacon**, en la pestaña de **Bloqueo Inteligente** Haga clic 
 
 2. Proseguimos con las casilla IP, en nuestro caso como instalamos la **API** en el mismo ambiente donde esta instalado **OPNsense** le asignamos la misma IP entregada anteriormente en la consola como **WAN**.
 
-3. En la casilla puerto ingresamos el puerto que nos designo la **API** anteriormente al momento de ejecutarla, en nuestro caso por defecto nos designo el puerto 5005(como se señalo en la imagen anterior).
+3. En la casilla puerto ingresamos el puerto que nos designo la **API** anteriormente al momento de ejecutarla, en nuestro caso por defecto nos designo el puerto 5005(como se señalo en la imagen de [`stats`](#stats)).
 
 4. Una vez realizada la acción anterior se nos mostrara un mensaje dandonos a entender que la acción fue realizada satisfactoriamente, llevandonos de vuelta a la lista de ambientes.
 
