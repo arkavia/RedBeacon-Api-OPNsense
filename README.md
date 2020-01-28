@@ -97,11 +97,13 @@ Ingresamos a **RedBeacon**, en la pestaña de **Bloqueo Inteligente** Haga clic 
 
 **Configuración OPNSENSE**
 
-1. Comenzaremos con la configuración de la primera sección que en este caso corresponde a la `configuración OPNSENSE`, para ello colocaremos el tipo de certificado al cual le asignamos al opnsense en su interfaz gráfica(en nuestro caso esta configurada en https por lo que activaremos esta opción). 
+1. Comenzaremos con la configuración de la primera sección que en este caso corresponde a la `configuración OPNSENSE`, para ello colocaremos el tipo de certificado al cual le asignamos al **OPNsense** en su interfaz gráfica(en nuestro caso esta configurada en https por lo que activaremos esta opción). 
 
-2. proseguimos con las casillas IP y puerto, ingresamos la IP asignada anteriormente en la consola como **WAN**, en nuestro caso no tenemos asignado un puerto a **OPNsense** por lo que dejaremos este campo en blanco (cabe señalar que por default **OPNsense** no tiene un puerto asignado por lo que es opcional completamente opcional completar este campo), 
+2. Proseguimos con las casillas IP y puerto, ingresamos la IP asignada anteriormente en la consola como **WAN** (en nuestro caso no tenemos asignado un puerto a **OPNsense** por lo que dejaremos este campo en blanco).[cabe señalar que por default **OPNsense** no tiene un puerto asignado por lo que es opcional completamente opcional completar este campo]. 
 
-3. para finalizar la primera sección haga ingreso del nombre de alias con el que desea asociar el ambiente de seguridad perimetral(esto se vera reflejado en la pestaña de **Aliases** en el dashboard de **OPNsense**), por ultimo ingrese las credenciales otorgadas anteriormente por **OPNsense** como key y secret.
+3. Ingrese el nombre de alias con el que desea asociar el ambiente de seguridad perimetral(esto se vera reflejado en la pestaña de **Aliases** en el dashboard de **OPNsense**).
+
+4. Por ultimo ingrese las credenciales otorgadas anteriormente por **OPNsense** como key y secret en sus respectivas casillas.
 
 **Configuración API**
 
@@ -130,9 +132,9 @@ Para finalizar la integración es de maxima importancia crear una regla personal
 1. Ingresamos a **RedBeacon**, en la pestaña de **Inicio** accedemos a una publicación con IOC's disponibles,
 una vez en el detalle de la publicación iremos al final de la publicación a la sección **IoC**. 
 
-2. haga clic en el ambiente que desea bloquear estas  direcciones IP's, se nos mostraran dos opciones de las cuales le daremos clic a **Bloquear IOC**.
+2. Haga clic en el ambiente que desea bloquear estas  direcciones IP's, se nos mostraran dos opciones de las cuales le daremos clic a **Bloquear IOC**.
 
-3. una vez realizada la acción anterior se nos mostrara un mensaje dandonos a entender que la acción fue realizada satisfactoriamente.
+3. Una vez realizada la acción anterior se nos mostrara un mensaje dandonos a entender que la acción fue realizada satisfactoriamente.
 
 > **NOTA: Cabe señalar que estos cambios se verán aplicados y reflejados automáticamente en OPNsense gracias a la regla asignada con anterioridad en dicha plataforma.**
 
