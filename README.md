@@ -91,12 +91,14 @@ Haga clic en el boton ` + ` para agregar una nueva clave. Cuando se crea la clav
 
 Antes de que pueda comenzar, asegúrese de crear una copia de este archivo con las credenciales ya que serán de vital uso en los siguientes pasos.
 
-Ingresamos a **RedBeacon**, en la pestaña de **Bloqueo Inteligente** Haga clic en el botón ` + ` para agregar un nuevo ambiente. En este modulo nos encontraremos con dos secciones de configuración (la primera es netamente la configuración de **OPNSENSE** tanto sus credenciales como su dirección IP y la segunda es netamente la IP, puerto y certificado de la dirección donde esta ubicada la **API** en nuestra maquina). 
+Ingresamos a **RedBeacon**, en la pestaña de **Bloqueo Inteligente** Haga clic en el botón ` + ` para agregar un nuevo ambiente. En este modulo nos encontraremos con dos secciones de configuración `configuración OPNSENSE` & `configuración API`. 
 
 Comenzaremos con la configuración de la primera sección que en este caso corresponde a la `configuración OPNSENSE`, para ello colocaremos el tipo de certificado al cual le asignamos al opnsense en su interfaz gráfica, en nuestro caso esta configurada en https por lo que activaremos esta opción. proseguimos con las casillas IP y puerto, ingresamos la IP asignada anteriormente en la consola como **WAN**, en nuestro caso no tenemos asignado un puerto a **OPNsense** por lo que dejaremos este campo en blanco (cabe señalar que por default **OPNsense** no tiene un puerto asignado por lo que es opcional completamente opcional completar este campo), para finalizar la primera sección haga ingreso del nombre de alias con el que desea asociar el ambiente de seguridad perimetral(esto se vera reflejado en la pestaña de **Aliases** en el dashboard de **OPNsense**), por ultimo ingrese las credenciales otorgadas anteriormente por **OPNsense** como key y secret.
 
 Una vez lista la configuración de la primera sección proseguimos a rellenar las casillas de la `configuración API`, en nuestro caso nuestro entorno de **API** no tiene certificado https por lo que no activaremos esta opción, proseguimos con las casillas IP y puerto, en nuestro caso como instalamos la **API** en el mismo ambiente donde esta instalado **OPNsense** le asignamos la misma IP entregada anteriormente en la consola como **WAN** y ingresamos en la siguiente casilla el puerto que nos designo la **API** al momento de ejecutarla, en nuestro caso por defecto nos designo el puerto 5005. todo esto para conseguir el resultado mostrado en las siguientes imágenes:
 
+
+<img src="https://firebasestorage.googleapis.com/v0/b/ark-not.appspot.com/o/Captura%20de%20Pantalla%202020-01-28%20a%20la(s)%2010.42.50.png?alt=media&token=6999d11d-3c39-448f-82f5-4a491122f235" width="1080">
 
 <img src="https://firebasestorage.googleapis.com/v0/b/ark-not.appspot.com/o/APIREDBEACON04.png?alt=media&token=c8f54163-9041-4a94-b664-3dfe3231cf1a" width="1080">
 
