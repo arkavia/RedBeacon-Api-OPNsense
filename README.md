@@ -11,10 +11,10 @@ API de **OPNsense** para la comunidad. El uso de estas herramientas está enfoca
 
 **Beneficios:**
 
-- **Personaliza** tus reglas de seguridad a tu medida a través de **OPNsense**.
-- **Notificación y acción** de los principales y más importantes IOC's a través de **RedBeacon**.
-- **Crea y elimina** tus ambientes de seguridad perimetral de red en tiempo real a través de **RedBeacon**.
-- **Activa y desactiva** las reglas de tus ambientes de seguridad perimetral en tiempo real a través de **RedBeacon**.
+- Toma respuesta automatizada de vectores de ataques en curso a través del Firewall **OPNsense**.
+- Gestiona y distribuye indicadores de compromiso (IOC's) a través de reglas de bloqueo en tu Firewall **OPNsense**.
+- Gestiona hasta (5) múltiples ambientes de Firewall **OPNsense** para distribuir IOC's.
+- Si cuentas con VPN a tu Firewall **OPNsense**, puedes distribuir los IOC's desde cualquier lugar del mundo.
 
 **Restricciones:**
 
